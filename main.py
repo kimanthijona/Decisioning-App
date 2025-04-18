@@ -1,4 +1,4 @@
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 
 from src.preprocess import load_and_preprocess
 
