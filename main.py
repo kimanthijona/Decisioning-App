@@ -1,4 +1,8 @@
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+
 from src.preprocess import load_and_preprocess
+
+from scr.preprocess import load_and_preprocess
 from src.model import build_model
 from src.decision_engine import score_and_decide
 
